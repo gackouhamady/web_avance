@@ -1,0 +1,56 @@
+.ajouter-chambre {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .ajouter-chambre form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ajouter-chambre label {
+    margin-bottom: 5px;
+  }
+  
+  .ajouter-chambre input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .ajouter-chambre button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .ajouter-chambre button:hover {
+    background-color: #0056b3;
+  }
+  
+  .ajouter-chambre .btn-cancel {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .ajouter-chambre .btn-cancel:hover {
+    text-decoration: underline;
+  }
+  

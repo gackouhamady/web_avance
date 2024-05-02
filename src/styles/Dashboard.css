@@ -1,0 +1,22 @@
+/* Dashboard.css */
+
+.dashboard {
+    padding: 1rem;
+    margin-left: 220px; /* Largeur de la barre latérale */
+  }
+  
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }

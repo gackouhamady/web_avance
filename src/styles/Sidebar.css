@@ -1,0 +1,52 @@
+.hamburger {
+    position: fixed;
+    top: 0.5rem; /* Décalage vers le bas */
+    left: 0;
+    width: 100%;
+    background-color: #6fc7e2;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    z-index: 999;
+  }
+  
+  .hamburger i {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 0.5rem; /* Écart entre l'icône et le bord gauche */
+  }
+  
+  .sidebar-content {
+    width: 250px;
+    background-color: #469793;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 4rem; /* Hauteur de l'en-tête */
+    left: 0;
+    bottom: 0;
+    transform: translateX(-250px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar-content.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar ul {
+    margin-top: 1rem; /* Écart entre le haut du sidebar et le premier élément de la liste */
+  }
+
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s; /* Transition de la couleur sur 0.3s */
+}
+
+.sidebar a:hover,
+.sidebar a:active {
+  color: #fff; /* Couleur constante au survol ou au clic */
+}

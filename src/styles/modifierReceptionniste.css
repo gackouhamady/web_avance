@@ -1,0 +1,86 @@
+/* ModifierReceptionniste.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.modifier-receptionniste {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modifier-receptionniste h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.modifier-receptionniste form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modifier-receptionniste label {
+  margin-bottom: 5px;
+}
+
+.modifier-receptionniste input,
+.modifier-receptionniste select {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.modifier-receptionniste button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.modifier-receptionniste button:hover {
+  background-color: #0056b3;
+}
+
+.modifier-receptionniste .btn-cancel {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.modifier-receptionniste .btn-cancel:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,92 @@
+.reservation-list {
+    width: 100%;
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #c75c5c;
+    padding: 0px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: hsl(229, 33%, 80%);
+  }
+  
+  .btn-update {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+  .btn-delete {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+  .ajout-reservation {
+    background-color: #d6dbdd;
+    border: none;
+    color: rgb(150, 20, 20);
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #00ff15;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .Link {
+    text-decoration: none;
+    color: rgb(28, 182, 110);
+  }
+  
+  .th-ajout {
+    background-color: rgb(84, 47, 133);
+  }
+  

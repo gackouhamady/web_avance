@@ -1,0 +1,24 @@
+ /* Header.css */
+
+.header {
+    background-color: #469793;;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Assure que l'en-tête est au-dessus de tout le reste */
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles spécifiques pour les écrans plus petits (responsive) */
+    .header {
+      padding: 0.5rem;
+    }
+  }
